@@ -1,0 +1,28 @@
+Dizi: [22, 27, 16, 2, 18, 6]
+
+Aşamalar:
+
+1. Adım: İlk iki elemanı karşılaştırırız. 22 > 27 olduğu için yer değiştirmezler.
+2. Adım: 16'yı sıralanmış iki elemanın sonuna ekleriz. 16 > 2 olduğu için yer değiştirirler. Dizi şu hale gelir: [2, 16, 27, 22, 18, 6].
+3. Adım: 2'yi sıralanmış üç elemanın sonuna ekleriz. 2 < 16 olduğu için yer değiştirirler. Dizi şu hale gelir: [2, 16, 27, 22, 18, 6].
+4. Adım: 18'i sıralanmış dört elemanın sonuna ekleriz. 18 > 27 olduğu için yer değiştirmezler. Dizi şu hale gelir: [2, 2, 16, 27, 22, 18, 6].
+5. Adım: 6'yı sıralanmış beş elemanın sonuna ekleriz. 6 < 2 olduğu için yer değiştirirler. Dizi şu hale gelir: [2, 2, 6, 16, 27, 22, 18].
+Big-O Gösterimi:
+
+Insertion Sort'un zaman karmaşıklığı O(n^2)'dir. Bu, dizideki eleman sayısı arttıkça algoritmanın çalışma süresinin de n^2 oranında artacağı anlamına gelir.
+
+18 Sayısının Kapsamı:
+
+Average Case: Aradığımız sayının ortada olması. Bu durumda, 18 sayısı dizinin ortasında yer alır. Insertion Sort'ta ortalama arama süresi O(n/2)'dir.
+Worst Case: Aradığımız sayının sonda olması. Bu durumda, 18 sayısı dizinin en sonundadır. Insertion Sort'ta en kötü arama süresi O(n)'dir.
+Best Case: Aradığımız sayının dizinin en başında olması. Bu durumda, 18 sayısı dizinin en başındadır. Insertion Sort'ta en iyi arama süresi O(1)'dir.
+Selection Sort İlk 4 Adımı:
+
+Dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+Aşamalar:
+
+1. Adım: Diziyi tarar ve en küçük elemanı (2) buluruz.
+2. Adım: En küçük elemanı dizinin ilk elemanı ile yer değiştiririz. Dizi şu hale gelir: [2, 7, 3, 5, 8, 9, 4, 15, 6].
+3. Adım: Kalan dizideki en küçük elemanı (3) buluruz.
+4. Adım: En küçük elemanı dizinin ikinci elemanı ile yer değiştiririz. Dizi şu hale gelir: [2, 3, 7, 5, 8, 9, 4, 15, 6].

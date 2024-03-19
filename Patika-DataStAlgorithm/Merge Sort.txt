@@ -1,0 +1,15 @@
+Bölme: Diziyi iki eşit parçaya böleriz.
+
+Sol alt dizi: [16, 21]
+Sağ alt dizi: [11, 8, 12, 22]
+Alt dizileri sıralama: Her iki alt diziyi de özyinelemeli olarak sıralarız.
+
+Sol alt dizi: [16, 21] -> [16, 21]
+Sağ alt dizi: [11, 8, 12, 22] -> [8, 11, 12, 22]
+Birleştirme: Sıralanmış alt dizileri tek bir dizide birleştiririz.
+
+Birleştirilmiş dizi: [8, 11, 12, 16, 21, 22]
+Big-O Gösterimi:
+
+Merge Sort'un zaman karmaşıklığı O(n log n)'dir. Bu, dizideki eleman sayısı arttıkça algoritmanın çalışma süresinin de n log n oranında artacağı anlamına gelir.
+

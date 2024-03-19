@@ -1,0 +1,24 @@
+Kök: İlk eleman (7) kökü oluşturur.
+
+Sol Alt Ağaç:
+
+5, 7'den küçüktür, bu nedenle sol altına eklenir.
+1, 5'ten küçüktür, bu nedenle 5'in sol altına eklenir.
+3, 5'ten büyüktür, bu nedenle 5'in sağ altına eklenir.
+Sağ Alt Ağaç:
+
+8, 7'den büyüktür, bu nedenle sağ altına eklenir.
+6, 8'den küçüktür, bu nedenle 8'in sol altına eklenir.
+0, 6'dan küçüktür, bu nedenle 6'nın sol altına eklenir.
+9, 8'den büyüktür, bu nedenle 8'in sağ altına eklenir.
+4, 9'dan küçüktür, bu nedenle 9'un sol altına eklenir.
+2, 4'ten küçüktür, bu nedenle 4'ün sol altına eklenir.
+Sonuç:
+
+        7
+    /    \
+   5      8
+  / \    / \
+ 1   3  6   9
+    / \ / \
+   0   2 4

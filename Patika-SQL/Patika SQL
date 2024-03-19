@@ -1,0 +1,4 @@
+Select * from customer
+Where first_name = 'Mary';
+
+1	1	"Mary"	"Smith"	"mary.smith@sakilacustomer.org"	5	true	"2006-02-14"	"2013-05-26 14:49:45.738"	1
