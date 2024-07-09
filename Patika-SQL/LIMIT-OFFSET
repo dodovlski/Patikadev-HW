@@ -1,6 +1,26 @@
 
-SELECT * FROM film
-WHERE title
-LIKE '%n'
+# DVDRental Örnek Veri Tabanı Sorgu Senaryoları
+
+## Film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en uzun (length) 5 filmi sıralayınız.
+```sql
+SELECT title, length
+FROM film
+WHERE title LIKE '%n'
 ORDER BY length DESC
 LIMIT 5;
+
+
+
+SELECT title, length
+FROM film
+WHERE title LIKE '%n'
+ORDER BY length ASC
+OFFSET 5
+LIMIT 5;
+
+
+SELECT last_name, store_id
+FROM customer
+WHERE store_id = 1
+ORDER BY last_name DESC
+LIMIT 4;
